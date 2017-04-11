@@ -1,7 +1,7 @@
 # Bates829.github.io
 TODO:
-Change social icons from ul to p
-Add portfolio information
+\nChange social icons from ul to p
+\nAdd portfolio information
 Center and put contact form in proper place
 Create an about section
 Color scheme
