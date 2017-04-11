@@ -1,4 +1,4 @@
-# Bates829.github.io
+# Bates829.github.io\n
 #TODO:
 #Change social icons from ul to p
 #Add portfolio information
