@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="public/style.css">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <!--END HEAD-->
+  <body>
+    <header>
+      <nav class="navbar navbar-fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <a class="navbar-brand" href="index.html">Ryan Bates</a>
+          <div class="collapse navbar-collapse pull-right" id="navbarNav">
+            <ul class="navbar-nav mr-auto navbar-right">
+              <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+              <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+      </nav>
+    </header>
+    <!--END HEADER-->
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-xs-offset-2 col-sm-12 col-sm-offset-2 col-md-12 col-md-offset-2 col-lg-12 col-log-offset-2">
+            <section id="contact" class="text-center">
+              <h2>Contact Me</h2>
+              <form id="contactForm"  novalidate>
+                <div class="form-item">
+                  <label for="name">Name</label>
+                  <input id="name" type="text" placeholder="Name" required>
+                </div>
+                <div class="form-item">
+                  <label for="email">Email</label>
+                  <input id="email" type="email" placeholder="Email" required>
+                </div>
+                <div class="form-item">
+                  <label for="phone">Phone Number</label>
+                  <input id="phone" type="tel" placeholder="Phone Number">
+                </div>
+                <div class="form-item">
+                  <label for="message"></label>
+                  <textarea id="message" cols="28" placeholder="Message" require></textarea>
+                </div>
+                <button type="submit" style="margin-bottom: 20px;">Send</button>
+              </form>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <!--END BODY-->
+
+  <footer>
+    <div class="container-fluid" id="footer-social">
+      <p>
+        <a rel="nofollow" class="btn-social" href="https://github.com/Bates829">
+          <i class="fa fa-github"></i>
+        </a>
+        <a rel="nofollow" class="btn-social" href="https://www.facebook.com/ryan.bates.961">
+          <i class="fa fa-fw fa-facebook"></i>
+        </a>
+        <a rel="nofollow" class="btn-social" href="https://www.linkedin.com/in/ryan-bates-a36295b8/">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a rel="nofollow" class="btn-social" href="https://www.instagram.com/rbates82/?hl=en">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </ul>
+      <p>
+        Ryan Bates &copy;
+	      <script>document.write(new Date().getFullYear())</script>
+		    All Rights Reserved
+      </p>
+    </div>
+  </footer>
+  <!--END FOOTER-->
+</html>
